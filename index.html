@@ -48,22 +48,6 @@
 
         }
 
-        nav a {
-
-            color: #00f; /* Changed text color to blue for better contrast */
-
-            background-color: #ddd; /* Changed background color to a lighter shade for better contrast */
-
-            padding: 5px 10px;
-
-            margin: 0 5px;
-
-            text-decoration: none;
-
-            border-radius: 5px; /* Added border-radius for a more visually appealing look */
-
-        }
-
         section {
 
             padding: 20px;
@@ -79,6 +63,22 @@
             padding: 10px;
 
             text-align: center;
+
+        }
+
+        /* Fix for low contrast error */
+
+        nav a {
+
+            color: #007BFF;
+
+            background-color: #555;
+
+            padding: 5px 10px;
+
+            text-decoration: none;
+
+            margin: 0 5px;
 
         }
 
@@ -108,7 +108,51 @@
 
     <section>
 
-        <!-- Rest of your content -->
+        <h2>Welcome to our Pharmaceutical Products Website</h2>
+
+        <p>This is a brief description of our pharmaceutical products. We offer high-quality medications to improve health and well-being.</p>
+
+        <img src="pharma-image.jpg" alt="Pharmaceutical Products">
+
+        <h3>Featured Products</h3>
+
+        <ul>
+
+            <li>Product 1</li>
+
+            <li>Product 2</li>
+
+            <li>Product 3</li>
+
+        </ul>
+
+        <h3>Contact Us</h3>
+
+        <form>
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+
+            <input type="text" id="email" name="email">
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p>For more information, please call us at <strong>(123) 456-7890</strong>.</p>
+
+        <h3>Video Presentation</h3>
+
+        <video width="640" height="360" controls>
+
+            <source src="pharma-video.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+
+        </video>
 
     </section>
 
